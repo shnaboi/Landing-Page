@@ -1,33 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+}
+
+.navbar {
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 100px;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    /* box-shadow: 2px 2px; */
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.navbar-link li {
+    padding: 16px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #f9faf8;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2;
+}
+
+.hero-left {
     display: grid;
 }
 
-.header-container {
-    background-color: #1F2937;
-    color: #f9faf8;
-    font-size: 24px;
+.hero-right {
+    color: black;
+    background-color: lightgray;
 }
 
-.header-link {
-    color: #f9faf8;
-    font-size: 18px;
-}
-
-.section-one-container {
-    background-color: #1F2937;
-    color: #f9faf8;
-}
-
-.section-one-div-title {
+.h1 {
     font-size: 48px;
 }
 
-.section-one-div-text {
+.hero p {
     color: #f9faf8;
     font-size: 18px;
 }
 
-.sign-up {
+.sign-up1 {
     border-radius: 10px;
     font-weight: bold;
     font-size: 18px;
@@ -37,3 +81,36 @@ body {
     padding: 0px 18px;
 }
 
+.section-two-container {
+    display: flexbox;
+}
+
+.section-two-title {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.section-three-container {
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+
+.section-four-box {
+    background-color: #3882F6;
+    margin: 1fr 1fr 1fr 1fr;
+}
+
+.sign-up2 {
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    padding: 0px 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
