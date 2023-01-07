@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 100px;
+    text-align: center;
 }
 
 .navbar {
@@ -46,29 +47,40 @@ body {
 }
 
 .hero {
+    display: flex;
     background-color: #1F2937;
     color: #f9faf8;
-    height: 500px;
-    display: grid;
-    grid-template-columns: 2;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
 }
 
 .hero-left {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    flex: 2 1 0;
+    min-width: 188px;
+    max-width: 375px;
 }
 
 .hero-right {
+    flex: 3 1 0;
     color: black;
     background-color: lightgray;
+    padding: 0px 44px;
+    min-height: 100px;
+    max-width: 500px;
 }
 
-.h1 {
+.hero h1 {
     font-size: 48px;
 }
 
 .hero p {
     color: #f9faf8;
     font-size: 18px;
+    padding: 8px 0px;
 }
 
 .sign-up1 {
@@ -81,18 +93,60 @@ body {
     padding: 0px 18px;
 }
 
-.section-two-container {
-    display: flexbox;
+
+.two-container {
+    align-items: center;
+    margin: 20px;
 }
 
-.section-two-title {
+.two-container p {
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+}
+
+.h2 {
     font-size: 36px;
     color: #1F2937;
+    justify-content: center;
+    margin-top: 30px;
 }
 
-.section-three-container {
+.two-block-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.two-block {
+    margin: 12px;
+}
+
+.two-block-graphic {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20%;
+    flex: wrap;
+}
+
+.three-container {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    padding: 36px;
+}
+
+.three-quote {
+    font-style: italic;
+    color: #1F2937;
     font-size: 36px;
+}
+
+.three-author {
+    font-size: 18px;
+    text-align: right;
+    padding-right: 36px;
 }
 
 .section-four-box {
