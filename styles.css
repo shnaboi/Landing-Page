@@ -1,0 +1,39 @@
+body {
+    display: grid;
+}
+
+.header-container {
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-link {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.section-one-container {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.section-one-div-title {
+    font-size: 48px;
+}
+
+.section-one-div-text {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.sign-up {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    padding: 0px 18px;
+}
+
