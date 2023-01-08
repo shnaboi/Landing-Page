@@ -126,7 +126,7 @@ body {
     height: 200px;
     width: 200px;
     border: 5px solid #3882F6;
-    border-radius: 20%;
+    border-radius: 10px;
     flex: wrap;
 }
 
@@ -134,7 +134,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 36px;
+    padding: 48px;
 }
 
 .three-quote {
@@ -149,9 +149,26 @@ body {
     padding-right: 36px;
 }
 
-.section-four-box {
+.four-container {
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    align-items: center;
+}
+
+.four-box {
     background-color: #3882F6;
-    margin: 1fr 1fr 1fr 1fr;
+    padding: 18px 42px;
+    border-radius: 10px;
+    width: 35%;
+}
+
+.four-alert {
+    padding: 18px 18px;
+}
+
+.four-box p {
+    padding: 12px;
 }
 
 .sign-up2 {
