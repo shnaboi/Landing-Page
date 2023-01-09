@@ -160,11 +160,15 @@ body {
     background-color: #3882F6;
     padding: 18px 42px;
     border-radius: 10px;
-    width: 35%;
+    width: 65%;
 }
 
 .four-alert {
     padding: 18px 18px;
+}
+
+.four-alert p {
+    margin: 8px;
 }
 
 .four-box p {
@@ -172,13 +176,20 @@ body {
 }
 
 .sign-up2 {
-    border-radius: 4px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
     font-weight: bold;
     font-size: 18px;
     color: #f9faf8;
     background-color: #3882f6;
-    border-color: #f9faf8;
-    padding: 0px 18px;
+    padding: 2px 24px 4px;
+}
+
+.sign-up2:hover {
+    cursor: pointer;
+    color: #3882f6;
+    background-color: #f9faf8;
+    transition: .2s;
 }
 
 .footer {
