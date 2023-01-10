@@ -62,6 +62,7 @@ body {
     flex: 2 1 0;
     min-width: 188px;
     max-width: 375px;
+    text-align: left;
 }
 
 .hero-right {
@@ -84,15 +85,21 @@ body {
 }
 
 .sign-up1 {
+    border: 0px solid #3882f6;
     border-radius: 10px;
     font-weight: bold;
     font-size: 18px;
     color: #f9faf8;
     background-color: #3882f6;
-    border-color: #3882f6;
-    padding: 0px 18px;
+    padding: 4px 18px;
 }
 
+.sign-up1:hover {
+    cursor: pointer;
+    color: #3882f6;
+    background-color: #f9faf8;
+    transition: .2s;
+}
 
 .two-container {
     align-items: center;
@@ -108,7 +115,6 @@ body {
 .h2 {
     font-size: 36px;
     color: #1F2937;
-    justify-content: center;
     margin-top: 30px;
 }
 
@@ -157,22 +163,22 @@ body {
 }
 
 .four-box {
+    display: flex;
     background-color: #3882F6;
     padding: 18px 42px;
     border-radius: 10px;
     width: 65%;
+    align-items: center;
 }
 
 .four-alert {
     padding: 18px 18px;
+    text-align: left;
+    color: #f9faf8;
 }
 
 .four-alert p {
-    margin: 8px;
-}
-
-.four-box p {
-    padding: 12px;
+    margin: 8px 0px 10px;
 }
 
 .sign-up2 {
@@ -183,6 +189,7 @@ body {
     color: #f9faf8;
     background-color: #3882f6;
     padding: 2px 24px 4px;
+    align-items: right;
 }
 
 .sign-up2:hover {
@@ -195,4 +202,5 @@ body {
 .footer {
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 4px;
 }
